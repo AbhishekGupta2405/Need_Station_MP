@@ -2,15 +2,16 @@ import React from 'react';
 import ServiceCard from './ServiceCard.jsx';
 import image1 from "../../assets/images/ElderCare/card-paralysis.jpg";
 import image2 from "../../assets/images/ElderCare/Nurse.webp";
+import image3 from "../../assets/images/ElderCare/Full-body-checkup.jpg"
 
 const AvailableServices = () => {
   const services = [
-    { title: 'Elder Care', price: '₹5k', imgUrl: 'https://i.ibb.co/qDK2WHS/ed-care.jpg' ,pageName:'/caretaker' },
-    { title: 'Paralysis Caregiver', price: '₹5k', imgUrl: image1, pageName:'/paralysis-care' },
-    { title: 'Postnatal Caregiver', price: '₹5k', imgUrl: 'https://i.ibb.co/sVrg60H/post-natal.jpg',pageName:'/postnatal-care' },
+    { title: 'Elder Care', price: '₹7k', imgUrl: 'https://i.ibb.co/qDK2WHS/ed-care.jpg' ,pageName:'/caretaker' },
+    { title: 'Paralysis Caregiver', price: '₹9k', imgUrl: image1, pageName:'/paralysis-care' },
+    { title: 'Postnatal Caregiver', price: '₹6k', imgUrl: 'https://i.ibb.co/sVrg60H/post-natal.jpg',pageName:'/postnatal-care' },
     { title: 'Nurse', price: '₹5k', imgUrl: image2, pageName:'/nurse' },
-    { title: 'Something', price: '₹5k', imgUrl: 'https://i.ibb.co/F62S1J1/babysitter.webp', pageName:'Something' },
-     { title: 'Baby Sitter', price: '₹5k', imgUrl: 'https://i.ibb.co/F62S1J1/babysitter.webp' ,pageName:'/babysitter'},
+    { title: 'Health Checkup Services', price: '₹3k', imgUrl: image3, pageName:'Something' },
+     { title: 'Baby Sitter', price: '₹6k', imgUrl: 'https://i.ibb.co/F62S1J1/babysitter.webp' ,pageName:'/babysitter'},
   ];
 
   return (

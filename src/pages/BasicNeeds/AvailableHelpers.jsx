@@ -1,5 +1,8 @@
 import styles from './AvailableHelpers.module.css';
 import { Link } from 'react-router-dom';
+import image1 from "../../assets/images/Rina.jpg"
+import image2 from "../../assets/images/cardImage2.jpeg"
+import image3 from "../../assets/images/Jane_Austin.jpg"
 
 const AvailableHelpers = () => {
     return (
@@ -71,21 +74,21 @@ const AvailableHelpers = () => {
             {[
                 {
                     name: 'Rina Choudhary',
-                    image: 'Rina.jpg',
+                    image: image1,
                     rate: '54$/hr',
                     reviews: '5.0 (50 reviews)',
                     tasks: '32 furniture assembly tasks',
                 },
                 {
                     name: 'Huzefa Qureshi',
-                    image: 'Huzefa.JPG',
+                    image: image2,
                     rate: '54$/hr',
                     reviews: '5.0 (50 reviews)',
                     tasks: '32 furniture assembly tasks',
                 },
                 {
                     name: 'Jane Austin',
-                    image: 'Jane Austin.jpg',
+                    image: image3,
                     rate: '54$/hr',
                     reviews: '5.0 (50 reviews)',
                     tasks: '32 furniture assembly tasks',

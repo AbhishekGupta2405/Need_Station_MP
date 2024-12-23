@@ -1,7 +1,6 @@
-import Header from "../../components/Header/Header.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
 import GetStarted from "../../components/GetStarted/GetStarted";
 import HowItWorks from "../../components/HowItWorks/HowItWorks";
+import image1 from "../../assets/images/flatRental.jpg"
 
 
 const FlatRentalHome = () => {
@@ -30,7 +29,7 @@ const FlatRentalHome = () => {
   </div>
   <div className="md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
     <img
-      src="https://i.ibb.co/LP9G8YQ/flat-rental.jpg"
+      src={image1}
       alt="Modern Flat Interior"
       className="rounded-lg shadow-lg"
     />

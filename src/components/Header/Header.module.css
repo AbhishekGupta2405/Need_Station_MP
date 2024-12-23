@@ -67,6 +67,15 @@
   opacity: 0.8; /* Slight transparency */
 }
 
+.dropdownToggle {
+  margin: 0 1vw;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  opacity: 0.8; /* Slight transparency */
+}
+
 .authButtons {
   display: flex;
   align-items: center;

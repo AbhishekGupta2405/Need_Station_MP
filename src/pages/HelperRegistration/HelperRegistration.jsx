@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./HelperRegistration.module.css";
+import ScrollToTop from "../../hooks/ScrollToTop.jsx";
 
 const HelperRegistration = () => {
   const [formData, setFormData] = useState({
@@ -33,6 +34,8 @@ const HelperRegistration = () => {
   };
 
   return (
+    <>
+    <ScrollToTop/>
     <main>
       <div className={styles["container"]}>
         <form className={styles["registration-form"]} onSubmit={handleSubmit}>
@@ -250,7 +253,7 @@ const HelperRegistration = () => {
           <button className={styles["button"]} type="submit">Register Now</button>
         </form>
       </div>
-    </main>
+    </main> </>
   );
 };
 

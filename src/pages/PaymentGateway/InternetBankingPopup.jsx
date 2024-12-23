@@ -31,7 +31,7 @@ const InternetBankingPopup = ({ isVisible, onClose }) => {
           <h2>Internet Banking</h2>
           <span
             className={styles["close-btn"]}
-            onClick={onClose} // Close the popup when the close button is clicked
+            onClick={onClose}
           >
             <RiArrowRightSLine />
           </span>

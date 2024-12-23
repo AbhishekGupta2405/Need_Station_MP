@@ -21,7 +21,7 @@ const CardPopup = ({ isVisible, onClose }) => {
           <h2>Add new Card</h2>
           <span
             className={styles["close-btn"]}
-            onClick={onClose} // Close button
+            onClick={onClose} 
           >
             ×
           </span>
